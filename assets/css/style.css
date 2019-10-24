@@ -181,119 +181,16 @@ footer h5 {
   margin-bottom: 0px;
 }
 @media screen and (max-width: 980px) {
-
-
-  /* header {
-    margin: auto;
-    max-width: 100%;
-    float: none;
-  }
-  .Header-Container {
-    max-width: 100%;
-    margin: auto;
-    float: none;
-    
-  }
-  .myname {
-    margin: auto;
-    max-width: 100%;
-    float: none;
-   
-  }
-  .Nav-buttons {
-    float: none;
-  }
-  ul {
-    margin: auto;
-    padding: none;
-  }
-  li {
-    list-style-type: none;
-    display: inline-block;  
-    margin: auto;
-    padding: none;
-    
-  }
-  li a {
-    text-decoration: none;  
-    list-style-type: none;
-    display: inline-block;  
-    margin: auto;
-    padding: none;
-   
-  } */
   .Main-Content {
     text-align: left;
     position: relative;
     max-width: 80%;
     margin: auto;
     margin-top: 10px;
-    height: auto;
-   
-     
+    height: auto;     
   }
-
-  /* #myimage {
-    
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    
-    float: none;
-    margin: auto;
-    max-width: 100%;
-    text-align: center;
- 
-  }
-  #bio-paragraphs {
   
-    
-    line-height: 2;
-    float: none;
-    max-width: 100%;
-  } */
-  /*portfolio media-query */
-
-  /*Contact media-query */
-  /* #Message {
-    max-width: 75%;
-    height: 500px;
-  }
-  input, textarea {
-    max-width: 90%;
-    box-sizing: border-box;
-  }
-  .submit-button {
-    font-size: 20px;
-    font-weight: bold;
-    border: 0px;
-    margin-left: 40px;
-    border-width: 15px;
-    background: #4aaaa5;
-    color: #ffffff;
-    padding: 10px 40px;
-  } */
-  /* footer media-query */
-  /* footer {
-    position: absolute;
-
-    border-top: 8px solid #4aaaa5;
-    padding: 5px 10px;  
-    max-width: 100%;
-  
-  }
-  footer h5 {
-    font-size: 10px;
-    line-height: 10px;
-   
-    text-align: center;
-    margin-bottom: 5px;
-    max-width: 100%;
-  } */
-}
 @media screen and (max-width: 768px) {
-
-
   header {
     margin: auto;
     max-width: 100%;
@@ -303,13 +200,11 @@ footer h5 {
     max-width: 100%;
     margin: auto;
     float: none;
-    
-  }
+ }
   .myname {
     margin: auto;
     max-width: 100%;
     float: none;
-   
   }
   .Nav-buttons {
     float: none;
@@ -323,7 +218,6 @@ footer h5 {
     display: inline-block;  
     margin: auto;
     padding: none;
-    
   }
   li a {
     text-decoration: none;  
@@ -331,7 +225,6 @@ footer h5 {
     display: inline-block;  
     margin: auto;
     padding: none;
-   
   }
   .Main-Content {
     text-align: left;
@@ -340,25 +233,17 @@ footer h5 {
     margin: auto;
     margin-top: 10px;
     height: auto;
-   
-     
   }
-
-  #myimage {
-    
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    
+ #myimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     float: none;
     margin: auto;
     max-width: 100%;
     text-align: center;
- 
-  }
+   }
   #bio-paragraphs {
-  
-    
     line-height: 2;
     float: none;
     max-width: 100%;
@@ -396,32 +281,29 @@ footer h5 {
   footer h5 {
     font-size: 10px;
     line-height: 10px;
-   
     text-align: center;
     margin-bottom: 5px;
     max-width: 100%;
   }
 }
 @media screen and (max-width: 640px) {
-
-
+ 
   header {
     margin: auto;
     max-width: 100%;
     float: none;
+ 
   }
   .Header-Container {
     max-width: 100%;
     margin: auto;
     float: none;
-    
   }
   .myname {
     margin: auto;
     max-width: 100%;
     float: none;
-   
-  }
+     }
   .Nav-buttons {
     float: none;
   }
@@ -451,25 +333,18 @@ footer h5 {
     margin: auto;
     margin-top: 10px;
     height: auto;
-   
-     
-  }
+     }
 
   #myimage {
-    
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     float: none;
     margin: auto;
     max-width: 100%;
     text-align: center;
- 
-  }
+   }
   #bio-paragraphs {
-  
-    
     line-height: 2;
     float: none;
     max-width: 100%;
