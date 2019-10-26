@@ -12,11 +12,11 @@ header {
   border: solid 2px #cccccc;
 }
 .Header-Container {
-  width: 960px;
+  width: 90%;
   margin: auto;
 }
 .myname {
-  height: 60px;
+  height: 100%;
   padding-left: 50px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
@@ -24,7 +24,7 @@ header {
   background-color: teal;
   color: white;
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 .Nav-buttons {
   float: right;
@@ -45,19 +45,17 @@ li a {
 .Main-Content {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   position: relative;
-  width: 960px;
+  width: 90%;
   margin: auto;
   margin-top: 10px;
   height: 100vh;
   background-color: #ffffff;
   border: solid 2px #cccccc;
-   
-}
-
+  }
 h1 {
   color: white;
   margin:0 auto 0 -22px;
-  width: 290px;
+  width: 22%;
   background-color: teal;
 }
 h2 {
@@ -144,11 +142,11 @@ h2 {
 
 /* Contact Tab Styling */
 #Message {
-  width: 1000px;
-  height: 500px;
+  width: 80%;
+  height: 30%;
 }
 input, textarea {
-  width: 600px;
+  width: 80%;
   box-sizing: border-box;
 }
 .submit-button {
@@ -247,8 +245,6 @@ footer h5 {
     float: none;
     max-width: 100%;
   }
-  /*portfolio media-query */
-
   /*Contact media-query */
   #Message {
     max-width: 75%;
@@ -271,12 +267,10 @@ footer h5 {
   /* footer media-query */
   footer {
     position: absolute;
-
     border-top: 8px solid #4aaaa5;
     padding: 5px 10px;  
     max-width: 100%;
-  
-  }
+    }
   footer h5 {
     font-size: 10px;
     line-height: 10px;
@@ -286,21 +280,24 @@ footer h5 {
   }
 }
 @media screen and (max-width: 640px) {
- 
+ body {
+   margin: 0;
+   overflow: hidden;
+   }
   header {
-    margin: auto;
+    margin: 0;
     max-width: 100%;
     float: none;
- 
-  }
+    padding: 0;
+   }
   .Header-Container {
     max-width: 100%;
-    margin: auto;
+    margin: 0;
     float: none;
   }
   .myname {
-    margin: auto;
-    max-width: 100%;
+    margin: 0;
+    width: 100%;
     float: none;
      }
   .Nav-buttons {
@@ -315,16 +312,14 @@ footer h5 {
     display: inline-block;  
     margin: auto;
     padding: none;
-    
-  }
+      }
   li a {
     text-decoration: none;  
     list-style-type: none;
     display: inline-block;  
     margin: auto;
     padding: none;
-   
-  }
+     }
   .Main-Content {
     text-align: left;
     position: relative;
@@ -333,7 +328,6 @@ footer h5 {
     margin-top: 10px;
     height: auto;
      }
-
   #myimage {
     display: block;
     margin-left: auto;
@@ -348,9 +342,7 @@ footer h5 {
     float: none;
     max-width: 100%;
   }
-  /*portfolio media-query */
-
-  /*Contact media-query */
+   /*Contact media-query */
   #Message {
     max-width: 75%;
     height: 500px;
@@ -383,6 +375,5 @@ footer h5 {
    
     text-align: center;
     margin-bottom: 5px;
-    max-width: 100%;
+    width: 100%;
   }
-}
