@@ -153,7 +153,7 @@ input, textarea {
   font-size: 20px;
   font-weight: bold;
   border: 0px;
-  margin-left: 40px;
+  margin-left: 0px;
   border-width: 15px;
   background: #4aaaa5;
   color: #ffffff;
@@ -195,18 +195,19 @@ footer h5 {
     padding: 0;
     position: static;
    }
-   .Header-Container {
+  .Header-Container {
     width: 100%;
     margin: 0;
     float: none;
     padding: 0;
   }
   .myname {
-    margin: auto;
-    max-width: 100%;
+    margin: 0;
+    width: 100%;
     float: none;
     padding: 0;
-  }
+    text-align: center;
+     }
   .Nav-buttons {
     float: none;
   }
@@ -219,14 +220,14 @@ footer h5 {
     display: inline-block;  
     margin: auto;
     padding: none;
-  }
+      }
   li a {
     text-decoration: none;  
     list-style-type: none;
     display: inline-block;  
     margin: auto;
     padding: none;
-  }
+     }
   .Main-Content {
     text-align: left;
     position: relative;
@@ -234,8 +235,8 @@ footer h5 {
     margin: auto;
     margin-top: 10px;
     height: auto;
-  }
- #myimage {
+     }
+  #myimage {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -249,7 +250,7 @@ footer h5 {
     float: none;
     max-width: 100%;
   }
-  /*Contact media-query */
+   /*Contact media-query */
   #Message {
     max-width: 75%;
     height: 500px;
@@ -286,7 +287,6 @@ footer h5 {
     width: 100%;
     padding: 0;
   }
-}
 @media screen and (max-width: 640px) {
 
   header {
